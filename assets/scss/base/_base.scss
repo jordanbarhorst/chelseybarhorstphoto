@@ -1,7 +1,3 @@
-body {
-  background-color: $base-background-color;
-}
-
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -34,11 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: $base-accent-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($base-accent-color, 15%);
   }
 
   &:hover {
@@ -81,24 +75,3 @@ pre {
     padding-left: 0;
   }
 }
-
-a.hollow-button {
-    color: #fff;
-    font-size: 1em;
-    padding: .8em 1em;
-    border: 4px solid #fff;
-    font-weight: 700;
-    line-height: 8em;
-    -webkit-transition: background-color .5s; /* Safari */
-    transition: background-color .5s;
-    
-    &:hover {
-      background-color: #fff;
-      color: $primary;
-      text-decoration: none;
-      cursor: pointer;
-    }
-}
-
-
-

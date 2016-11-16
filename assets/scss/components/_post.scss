@@ -1,18 +1,17 @@
 .post-content {
   margin: 5em 0;
-    
+
     h2 {
-        color: $primary;
         font-size: 2.2em;
         text-align: center;
         font-weight: 700;
         margin-bottom: 1.8em;
     }
-    
+
     p {
         line-height: 1.8em;
         font-size: 1.2em;
-        
+
         &.caption {
             font-size: .9em;
             font-color: lighten($base-font-color, 40%);
@@ -20,16 +19,14 @@
             margin-bottom: 4em;
         }
     }
-    
+
     img {
         margin-top: 2.8em;
     }
-    
+
     hr {
         width: 15%;
-        color: $primary;
         margin-top: 4em;
         border: 5px solid;
     }
 }
-

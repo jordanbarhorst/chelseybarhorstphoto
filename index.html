@@ -1,45 +1,41 @@
 ---
-layout: home
+layout: default
 ---
-  <ul class="featured-post-list">
-    {% for post in site.posts limit:3 %}
-      <li>
-      <div class="portfolio-item">
-       {% if post.lead == True %}
-       <img src="assets/img/portfolio-items/{{ post.image-wide }}" alt="{{post.title}}">
-        {% else %}
-         <img src="assets/img/portfolio-items/{{ post.image-lead }}" alt="{{ post.title }}">
-          {% endif %}
-       <span class="portfolio-overlay" style="background-color:#{{ post.color }};">
-        <span class="post-meta">{{ post.categories }}</span>
-        <h3>{{ post.title }}</h3>
-           {% if post.alt-button-link %}
-                  <a class="white hollow-button" target="_blank" href=" {{ post.alt-button-link }}" onMouseOver="this.style.color='#{{ post.color }}'" onMouseOut="this.style.color='#ffffff'">{{ post.alt-button-text }}</a>
-                  {% else %}
-                  <a class="white hollow-button" href="{{ post.url | prepend: site.baseurl }}" onMouseOver="this.style.color='#{{ post.color}}'" onMouseOut="this.style.color='#ffffff'">View Case Study</a>
-                  {% endif %}
-          </span>
-          </div>
-      </li>
-    {% endfor %}
-  </ul>
-  <ul class="bottom-post-list">
-      {% for post in site.posts offset:3 limit:4  %}
-      <li>
-          <div class="bottom-portfolio-item">
-              <img src="/assets/img/portfolio-items/{{ post.image-bottom }}" alt="{{ post.title }}">
-              <span class="portfolio-overlay" style="background-color: #{{ post.color }};">
-                  <span class="post-meta">{{ post.categories }}</span>
-                  <h4>{{ post.title }}</h4>
-                  {% if post.alt-button-link %}
-                  <a class="white hollow-button" target="_blank" href=" {{ post.alt-button-link }}" onMouseOver="this.style.color='#{{ post.color }}'" onMouseOut="this.style.color='#ffffff'">{{ post.alt-button-text }}</a>
-                  {% else %}
-                  <a class="white hollow-button" href="{{ post.url | prepend: site.baseurl }}" onMouseOver="this.style.color='#{{ post.color}}'" onMouseOut="this.style.color='#ffffff'">View Case Study</a>
-                  {% endif %}
-              </span>
-          </div>
-      </li>
-      {% endfor %}
-  </ul>
+<section class="hero">
+  <div class="home-slider">
+    <div><img src="assets/img/tristan-and-joce-home.jpg" alt="Chelsey Barhorst Photography"></div>
+    <div><img src="assets/img/sworden-home.jpg" alt="Chelsey Barhorst Photography"></div>
+    <div><img src="assets/img/maddie-home.jpg" alt="Chelsey Barhorst Photography"></div>
+  </div>
+</section>
 
- <!--style="background-image: url('assets/img/portfolio-items/{{ post.image }}');"-->
+<section class="about">
+  <h1>Hi, Im Chelsey. Im a family photographer based in Cincinnati, Ohio.</h1>
+  <div class="portrait-photo">
+    <img src="assets/img/chelsey.jpg" alt="Chelsey Barhorst">
+  </div>
+  <div class="chelsey-bio">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </div>
+</section>
+
+<!-- <section class="gallery">
+<h2>Gallery</h2>
+<ul class="gallery-items">
+{% for post in site.posts limit:6 %}
+<li>
+<img src="{{ post.home- }}" alt="{{ post.title }}">
+<span class="gallery-overlay">
+<h4>{{ post.title }}</h4>
+<a class="button button--white" href="{{ post.url }}">View Blog</a>
+</span>
+</li>
+{% endfor %}
+</ul>
+</section> -->
+
+<!-- end container -->
+</section>

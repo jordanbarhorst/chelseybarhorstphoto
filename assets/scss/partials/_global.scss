@@ -1,125 +1,83 @@
-body {
-  margin: 0;
+/* Navigation Styles */
+.container {
+  .logo {
+    img {
+      max-width: 225px;
+    }
+    width: 250px;
+    margin: auto;
+    position: relative;
+  }
+  .navigation {
+    margin: 0 auto 2.5em;
+    position: relative;
+    text-align: center;
+    ul {
+      li {
+        display: inline;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: $base-font-family;
+      }
+    }
+  }
+  @media (min-width: 400px) {
+    @include outer-container;
+  }
+  @media (max-width: 400px) {
+    @include outer-container;
+  }
 }
 
-.wrapper {
-  @include outer-container();
-  padding: 1em;
+/* Slider Styles */
+.slick-prev {
+  left:20px;
+  z-index:999;
+  height:50px;
+}
+.slick-next {
+  right:40px;
+  z-index:999;
+  height:50px;
+}
+.slick-next:before {
+  content: url(../images/settings/next.png)!important;
+}
+.slick-prev:before {
+  content: url(../images/settings/prev.png)!important;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: $base-font-family;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  opacity: .75;
+  height: 50px;
 }
 
-.page-content {
-  @include span-columns(12);
-  @include omega();
-  padding-top: $gutter;
-  width: 100%;
-  padding-top: 0;
-  margin-top: 0;
+/* About Styles */
+
+.about {
+  background-color: $light-green;
+  padding: 60px 7.5%;
+  color: $green;
+  overflow: auto;
 
   h1 {
-    line-height: 1em;
-  }
-}
-
-.bold-italic {
-  font-style: italic;
-  font-weight: 700;
-}
-
-.sliding-panel-content {  
-  $action-color: #477DCA !default;
-  $dark-gray: #333 !default;
-  $sliding-panel-border-color: $dark-gray;
-  $sliding-panel-background: lighten($sliding-panel-border-color, 5%);
-  $sliding-panel-color: #fff;
-  $sliding-panel-border: 1px solid $sliding-panel-border-color;
-  $sliding-panel-background-hover: $action-color;
-  $sliding-panel-color-hover: #fff;
-  $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
-
-  @include position(fixed, 0px auto 0px 0px);
-  @include size(250px 100%);
-  @include transform(translateX(-250px));
-  @include transition(all 0.25s linear);
-  background: $sliding-panel-background;
-  z-index: 999999;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-
-  ul {
-    padding: 1em!important;
-    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 20px;
   }
 
-  li {
-    list-style: none;
-    padding: .5em auto;
+  .portrait-photo {
+    @include span-columns(6);
+    padding-right: 5%;
   }
-
-  li a {
-    color: $sliding-panel-color;
-    display: block;
-    font-weight: bold;
-    padding: .5em 1em;
-    text-decoration: none;
-    font-family: 'Lato';
-
-    &:focus {
-      color: lighten($dark-gray, 30%);
-    }
-
-    &:hover {
-      color: lighten($dark-gray, 30%);
-    }
+  .chelsey-bio {
+    @include span-columns(6);
+    color: $medium-gray;
   }
-
-  &.is-visible {
-    @include transform(translateX(0));
+  .clear {
+    clear:both;
   }
-}
-
-.sliding-panel-fade-screen {
-  @include position(fixed, 0px 0px 0px 0px);
-  @include transition;
-  background: black;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 999998;
-
-  &.is-visible {
-    opacity: 0.4;
-    visibility: visible;
-  }
-}
-
-.sliding-panel-button {
-  padding: 10px 16px;
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  outline: none;
-
-  img {
-    height: 1.3em;
-  }
-
-    .social-slideout {
-       margin-top: 10em;
-    }
-}
-
-
-
-// Based on code by Diego Eis
-
-a.fbook-nav:hover {
-    color: #3c5a9c!important;
-}
-a.twitter-nav:hover {
-    color: #59a8df!important;
-}
-a.dribbble-nav:hover {
-    color: #ec4888!important;
-}
-a.github-nav:hover {
-    color: #d46800!important;
 }
