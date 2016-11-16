@@ -41,10 +41,10 @@
   height:50px;
 }
 .slick-next:before {
-  content: url(../images/settings/next.png)!important;
+  content: url(../img/settings/next.png)!important;
 }
 .slick-prev:before {
-  content: url(../images/settings/prev.png)!important;
+  content: url(../img/settings/prev.png)!important;
 }
 .slick-prev:before, .slick-next:before {
   font-family: $base-font-family;
@@ -74,10 +74,21 @@
     padding-right: 5%;
   }
   .chelsey-bio {
-    @include span-columns(6);
+    @include span-columns(5);
     color: $medium-gray;
   }
   .clear {
     clear:both;
   }
+}
+.about {
+  @include span-columns(12);
+}
+
+.portrait-photo {
+  @include span-columns(6 of 12);
+
+}
+.chelsey-bio {
+  @include span-columns(6 of 12);
 }
