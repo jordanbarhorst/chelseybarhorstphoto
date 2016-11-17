@@ -1,8 +1,9 @@
 @charset "UTF-8";
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+html {
   box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
@@ -6120,8 +6121,8 @@ ul, ol {
 .featured-post-list {
   float: left;
   display: block;
-  margin-right: 2.5641%;
-  width: 120.51282%;
+  margin-right: 2.12766%;
+  width: 100%;
   width: 100%;
   margin-left: 0;
   list-style: none;
@@ -6222,8 +6223,8 @@ ul, ol {
 .work-portfolio-item {
   float: left;
   display: block;
-  margin-right: 2.5641%;
-  width: 28.20513%;
+  margin-right: 2.12766%;
+  width: 23.40426%;
   position: relative;
   text-align: center;
   margin: 2.8em 0 0 1.6em; }
@@ -6269,26 +6270,22 @@ ul, ol {
     font-family: "Cormorant Garamond", serif; }
 @media (min-width: 400px) {
   .container {
-    *zoom: 1;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
-    .container:before, .container:after {
-      content: " ";
-      display: table; }
-    .container:after {
-      clear: both; } }
+    .container::after {
+      clear: both;
+      content: "";
+      display: block; } }
 @media (max-width: 400px) {
   .container {
-    *zoom: 1;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
-    .container:before, .container:after {
-      content: " ";
-      display: table; }
-    .container:after {
-      clear: both; } }
+    .container::after {
+      clear: both;
+      content: "";
+      display: block; } }
 
 /* Slider Styles */
 .slick-prev {
@@ -6328,16 +6325,15 @@ ul, ol {
   .about .portrait-photo {
     float: left;
     display: block;
-    margin-right: 2.5641%;
-    width: 58.97436%;
-    padding-right: 5%; }
+    margin-right: 2.12766%;
+    width: 48.93617%; }
     .about .portrait-photo:last-child {
       margin-right: 0; }
   .about .chelsey-bio {
     float: left;
     display: block;
-    margin-right: 2.5641%;
-    width: 48.71795%;
+    margin-right: 2.12766%;
+    width: 48.93617%;
     color: #999; }
     .about .chelsey-bio:last-child {
       margin-right: 0; }
@@ -6347,8 +6343,8 @@ ul, ol {
 .about {
   float: left;
   display: block;
-  margin-right: 2.5641%;
-  width: 120.51282%; }
+  margin-right: 2.12766%;
+  width: 100%; }
   .about:last-child {
     margin-right: 0; }
 

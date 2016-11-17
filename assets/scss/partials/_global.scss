@@ -71,10 +71,9 @@
 
   .portrait-photo {
     @include span-columns(6);
-    padding-right: 5%;
   }
   .chelsey-bio {
-    @include span-columns(5);
+    @include span-columns(6);
     color: $medium-gray;
   }
   .clear {
