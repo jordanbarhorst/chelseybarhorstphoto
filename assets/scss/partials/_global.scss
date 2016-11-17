@@ -1,5 +1,6 @@
 /* Navigation Styles */
 .container {
+  @include outer-container(85%);
   .logo {
     img {
       max-width: 225px;
@@ -20,12 +21,6 @@
         font-family: $base-font-family;
       }
     }
-  }
-  @media (min-width: 400px) {
-    @include outer-container;
-  }
-  @media (max-width: 400px) {
-    @include outer-container;
   }
 }
 
@@ -58,6 +53,7 @@
 /* About Styles */
 
 .about {
+  @include span-columns(12);
   background-color: $light-green;
   padding: 60px 7.5%;
   color: $green;
@@ -80,14 +76,26 @@
     clear:both;
   }
 }
-.about {
+
+/* Gallery Styles */
+
+.gallery {
   @include span-columns(12);
-}
+  @include omega();
 
-.portrait-photo {
-  @include span-columns(6 of 12);
+  ul {
 
-}
-.chelsey-bio {
-  @include span-columns(6 of 12);
+    li {
+    @include span-columns(4 of 12);
+
+    &:nth-child(3n+1) {
+    @include omega();
+
+  }
+    }
+  }
+
+  .gallery-overlay {
+    display: none;
+  }
 }

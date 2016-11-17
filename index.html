@@ -23,12 +23,12 @@ layout: default
   </div>
 </section>
 
-<!-- <section class="gallery">
+<section class="gallery">
 <h2>Gallery</h2>
 <ul class="gallery-items">
-{% for post in site.posts limit:6 %}
+{% for post in site.posts %}
 <li>
-<img src="{{ post.home- }}" alt="{{ post.title }}">
+<img src="{{ post.home-image }}" alt="{{ post.title }}">
 <span class="gallery-overlay">
 <h4>{{ post.title }}</h4>
 <a class="button button--white" href="{{ post.url }}">View Blog</a>
@@ -36,7 +36,7 @@ layout: default
 </li>
 {% endfor %}
 </ul>
-</section> -->
+</section>
 
 <!-- end container -->
 </section>

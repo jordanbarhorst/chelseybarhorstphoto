@@ -1,6 +1,6 @@
 ---
 title:  Sworden Family
-date:   11-12-2016
+date:   13-11-2016
 categories: family
 layout: default
 home-image: http://placehold.it/300x200

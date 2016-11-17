@@ -1,6 +1,6 @@
 ---
-title:  Mefford Family
-date:   11-15-2016
+title:  Mefford Family - Summer
+date:   12-11-2016
 categories: family
 layout: default
 home-image: http://placehold.it/300x200

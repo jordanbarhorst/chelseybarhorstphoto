@@ -1,6 +1,6 @@
 ---
-title:  Other
-date:   11-11-2016
+title:  Mefford Family
+date:   15-11-2016
 categories: family
 layout: default
 home-image: http://placehold.it/300x200

@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*
+// Change the grid settings
+$column: 85px;
+$gutter: 25px;
+$grid-columns: 12;
+
+
+// Define your breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4); */
 html {
   box-sizing: border-box; }
 
@@ -6039,7 +6049,7 @@ h6 {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure {
-  margin-bottom: 15px; }
+  margin-bottom: 0.809em; }
 
 img {
   max-width: 100%;
@@ -6047,13 +6057,6 @@ img {
 
 figure > img {
   display: block; }
-
-ul, ol {
-  margin-left: 30px; }
-
-li > ul,
-li > ol {
-  margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -6066,7 +6069,7 @@ a {
 blockquote {
   color: #999;
   border-left: 4px solid #999;
-  padding-left: 15px;
+  padding-left: 0.809em;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -6121,7 +6124,7 @@ ul, ol {
 .featured-post-list {
   float: left;
   display: block;
-  margin-right: 2.12766%;
+  margin-right: 2.35765%;
   width: 100%;
   width: 100%;
   margin-left: 0;
@@ -6130,7 +6133,7 @@ ul, ol {
   .featured-post-list:last-child {
     margin-right: 0; }
   .featured-post-list > li {
-    margin-bottom: 30px;
+    margin-bottom: 1.618em;
     display: block;
     background-color: #000;
     height: auto; }
@@ -6223,8 +6226,8 @@ ul, ol {
 .work-portfolio-item {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 23.40426%;
+  margin-right: 2.35765%;
+  width: 23.23176%;
   position: relative;
   text-align: center;
   margin: 2.8em 0 0 1.6em; }
@@ -6253,39 +6256,29 @@ ul, ol {
     margin-top: 0 !important; }
 
 /* Navigation Styles */
-.container .logo {
-  width: 250px;
-  margin: auto;
-  position: relative; }
-  .container .logo img {
-    max-width: 225px; }
-.container .navigation {
-  margin: 0 auto 2.5em;
-  position: relative;
-  text-align: center; }
-  .container .navigation ul li {
-    display: inline;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: "Cormorant Garamond", serif; }
-@media (min-width: 400px) {
-  .container {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .container::after {
-      clear: both;
-      content: "";
-      display: block; } }
-@media (max-width: 400px) {
-  .container {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto; }
-    .container::after {
-      clear: both;
-      content: "";
-      display: block; } }
+.container {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .container .logo {
+    width: 250px;
+    margin: auto;
+    position: relative; }
+    .container .logo img {
+      max-width: 225px; }
+  .container .navigation {
+    margin: 0 auto 2.5em;
+    position: relative;
+    text-align: center; }
+    .container .navigation ul li {
+      display: inline;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-family: "Cormorant Garamond", serif; }
 
 /* Slider Styles */
 .slick-prev {
@@ -6314,10 +6307,16 @@ ul, ol {
 
 /* About Styles */
 .about {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   background-color: #F9FFF8;
   padding: 60px 7.5%;
   color: #96D08C;
   overflow: auto; }
+  .about:last-child {
+    margin-right: 0; }
   .about h1 {
     text-align: center;
     font-weight: 400;
@@ -6325,44 +6324,41 @@ ul, ol {
   .about .portrait-photo {
     float: left;
     display: block;
-    margin-right: 2.12766%;
-    width: 48.93617%; }
+    margin-right: 2.35765%;
+    width: 48.82117%; }
     .about .portrait-photo:last-child {
       margin-right: 0; }
   .about .chelsey-bio {
     float: left;
     display: block;
-    margin-right: 2.12766%;
-    width: 48.93617%;
+    margin-right: 2.35765%;
+    width: 48.82117%;
     color: #999; }
     .about .chelsey-bio:last-child {
       margin-right: 0; }
   .about .clear {
     clear: both; }
 
-.about {
+/* Gallery Styles */
+.gallery {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 100%; }
-  .about:last-child {
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  .gallery:last-child {
     margin-right: 0; }
-
-.portrait-photo {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 48.93617%; }
-  .portrait-photo:last-child {
-    margin-right: 0; }
-
-.chelsey-bio {
-  float: left;
-  display: block;
-  margin-right: 2.12766%;
-  width: 48.93617%; }
-  .chelsey-bio:last-child {
-    margin-right: 0; }
+  .gallery ul li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .gallery ul li:last-child {
+      margin-right: 0; }
+    .gallery ul li:nth-child(3n+1) {
+      margin-right: 0; }
+  .gallery .gallery-overlay {
+    display: none; }
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
