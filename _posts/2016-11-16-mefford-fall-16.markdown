@@ -3,7 +3,7 @@ title:  Mefford Family - Fall
 date:   16-11-2016
 categories: family
 layout: default
-home-image: http://placehold.it/300x200
+home-image: mefford-family-fall-16.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

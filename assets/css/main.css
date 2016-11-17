@@ -6328,6 +6328,8 @@ ul, ol {
     width: 48.82117%; }
     .about .portrait-photo:last-child {
       margin-right: 0; }
+    .about .portrait-photo img {
+      margin-right: 15%; }
   .about .chelsey-bio {
     float: left;
     display: block;
@@ -6345,18 +6347,19 @@ ul, ol {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  margin-right: 0; }
+  text-align: center;
+  padding: 60px 0; }
   .gallery:last-child {
     margin-right: 0; }
-  .gallery ul li {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .gallery ul li:last-child {
-      margin-right: 0; }
-    .gallery ul li:nth-child(3n+1) {
-      margin-right: 0; }
+  .gallery ul {
+    margin-bottom: 25px; }
+    .gallery ul li {
+      padding-right: 0  !important;
+      margin: 0 0 8% 1.25% !important;
+      text-align: center;
+      display: inline; }
+      .gallery ul li img {
+        max-width: 300px; }
   .gallery .gallery-overlay {
     display: none; }
 

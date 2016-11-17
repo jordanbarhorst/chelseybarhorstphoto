@@ -67,6 +67,9 @@
 
   .portrait-photo {
     @include span-columns(6);
+    img {
+      margin-right:15%;
+    }
   }
   .chelsey-bio {
     @include span-columns(6);
@@ -81,18 +84,25 @@
 
 .gallery {
   @include span-columns(12);
-  @include omega();
+
+  text-align: center;
+  padding: 60px 0;
+
 
   ul {
+    margin-bottom: 25px;
 
     li {
-    @include span-columns(4 of 12);
+    padding-right: 0  !important;
+    margin: 0 0 8% 1.25% !important;
+    text-align: center;
+    display: inline;
 
-    &:nth-child(3n+1) {
-    @include omega();
-
-  }
+      img {
+      max-width: 300px;
+      }
     }
+
   }
 
   .gallery-overlay {

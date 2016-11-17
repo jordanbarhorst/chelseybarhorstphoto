@@ -26,9 +26,9 @@ layout: default
 <section class="gallery">
 <h2>Gallery</h2>
 <ul class="gallery-items">
-{% for post in site.posts %}
+{% for post in site.posts limit:3 %}
 <li>
-<img src="{{ post.home-image }}" alt="{{ post.title }}">
+<img src="/assets/img/gallery-images/{{ post.home-image }}" alt="{{ post.title }}">
 <span class="gallery-overlay">
 <h4>{{ post.title }}</h4>
 <a class="button button--white" href="{{ post.url }}">View Blog</a>
@@ -36,7 +36,26 @@ layout: default
 </li>
 {% endfor %}
 </ul>
+<ul class="gallery-items">
+  {% for post in site.posts offset:3 limit:3 %}
+  <li>
+  <img src="/assets/img/gallery-images/{{ post.home-image }}" alt="{{ post.title }}">
+  <span class="gallery-overlay">
+  <h4>{{ post.title }}</h4>
+  <a class="button button--white" href="{{ post.url }}">View Blog</a>
+  </span>
+  </li>
+  {% endfor %}
+</ul>
 </section>
+<section class="footer">
+  <h2>Contact Me!</h2>
+  <form action="https://formspree.io/jordan.barhorst@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
 
 <!-- end container -->
 </section>
