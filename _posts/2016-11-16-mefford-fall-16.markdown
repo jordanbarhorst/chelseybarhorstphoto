@@ -1,5 +1,5 @@
 ---
-title:  Mefford Family - Fall
+title:  Mefford Family
 date:   16-11-2016
 categories: family
 layout: default

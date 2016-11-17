@@ -1,5 +1,5 @@
 ---
-title:  Mefford Family - Summer
+title:  Mefford Family
 date:   12-11-2016
 categories: family
 layout: default

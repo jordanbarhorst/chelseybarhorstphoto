@@ -6059,7 +6059,7 @@ figure > img {
   display: block; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
+  font-weight: 700; }
 
 a {
   text-decoration: none; }
@@ -6352,16 +6352,39 @@ ul, ol {
   .gallery:last-child {
     margin-right: 0; }
   .gallery ul {
-    margin-bottom: 25px; }
+    /* margin-bottom: 25px; */ }
     .gallery ul li {
       padding-right: 0  !important;
-      margin: 0 0 8% 1.25% !important;
+      margin: 0 0 1.25% 1.25% !important;
       text-align: center;
-      display: inline; }
+      display: inline-block;
+      position: relative; }
       .gallery ul li img {
         max-width: 300px; }
-  .gallery .gallery-overlay {
-    display: none; }
+      .gallery ul li .gallery-overlay {
+        display: none;
+        position: absolute;
+        left: 12%;
+        top: 13%;
+        width: 75%;
+        height: 75%;
+        padding: 15% 5%;
+        background: #fef9f8;
+        opacity: .95; }
+        .gallery ul li .gallery-overlay h4 {
+          color: #F5A5AB;
+          font-size: 1em;
+          padding-bottom: 0 !important;
+          margin-bottom: .5em; }
+        .gallery ul li .gallery-overlay a {
+          color: #96D08C;
+          font-family: "Cormorant Garamond", serif;
+          font-size: 1em;
+          font-weight: 700;
+          font-style: italic;
+          padding-top: 0 !important; }
+      .gallery ul li:hover .gallery-overlay {
+        display: block; }
 
 /* -------------------------------------------------------------------------*/
 /* Layout */

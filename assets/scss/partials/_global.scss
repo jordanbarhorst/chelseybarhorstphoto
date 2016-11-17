@@ -90,22 +90,50 @@
 
 
   ul {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 
     li {
     padding-right: 0  !important;
-    margin: 0 0 8% 1.25% !important;
+    margin: 0 0 1.25% 1.25% !important;
     text-align: center;
-    display: inline;
+    display: inline-block;
+    position: relative;
 
       img {
       max-width: 300px;
       }
+      .gallery-overlay {
+        display: none;
+        position: absolute;
+        left: 12%;
+        top: 13%;
+        width: 75%;
+        height: 75%;
+        padding: 15% 5%;
+        background: lighten($peach, 5%);
+        opacity: .95;
+
+        h4 {
+          color: $blush;
+          font-size: 1em;
+          padding-bottom: 0!important;
+          margin-bottom: .5em;
+        }
+
+        a {
+          color: $green;
+          font-family:$base-font-family;
+          font-size: 1em;
+          font-weight: 700;
+          font-style: italic;
+          padding-top: 0!important;
+        }
+      }
+        &:hover {
+          .gallery-overlay {
+            display: block;
+          }
+      }
     }
-
-  }
-
-  .gallery-overlay {
-    display: none;
   }
 }
