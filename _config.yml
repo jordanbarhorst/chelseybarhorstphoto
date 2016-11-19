@@ -4,7 +4,7 @@ email: jordan.barhorst@gmail.com
 keywords: "photography, family photography, portrait photography, cincinnati, ohio"
 description: "Chelsey is a family and portrait photographer based in Cincinnati, Ohio."
 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "http://www.chelseybarhorstphoto.com" # the subpath of your site, e.g. /blog/
 url: "http://chelseybarhorstphotography.com" # the base hostname & protocol for your site
 
 markdown: redcarpet
