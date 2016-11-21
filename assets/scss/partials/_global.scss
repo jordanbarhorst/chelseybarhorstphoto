@@ -265,7 +265,8 @@
     @media only screen and (max-width: 500px) {
 
       .gallery-overlay {
-        padding: 15% 5%;
+        padding: 10% 5%;
+        opacity: 1;
       }
     }
     }
@@ -407,6 +408,16 @@ footer {
 
 /* Blog Styles */
 
+.blog-post {
+  @include span-columns(8);
+  @include shift(2);
+
+  @media only screen and (max-width: 1300px) {
+    @include span-columns(12);
+    @include shift(0);
+  }
+}
+
 .post-header {
   @include span-columns(12);
 
@@ -426,6 +437,10 @@ footer {
   p {
   font-size: 1em;
   padding: 20px 0;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: block;
   a {
     color: $green;
     transition: all .3s ease 0.0s;
@@ -436,7 +451,21 @@ footer {
   }
   }
   img {
-    margin-top: 0px;
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
   }
 
+}
+
+.photo-block {
+  text-align: center;
+
+  img {
+    margin: 25px auto;
+    max-width: 1000px;
+    width: 100%;
+    display: block;
+  }
 }

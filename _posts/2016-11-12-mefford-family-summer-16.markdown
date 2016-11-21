@@ -11,3 +11,12 @@ summary: Blooming sunflowers and warm sun filtering through the beginning-to-ora
 
 ---
 Blooming sunflowers and warm sun filtering through the beginning-to-orange oak trees up above is how I got to spend this carefree fall Saturday! I got the impromptu chance to shoot a mini session of one of my good friend’s daughter and the beautiful light and company resulted in gorgeous photos. Jocelyn is mature and wise beyond her years and I was able to capture her beautiful spirit and personality with this fun shoot. Enjoy!
+
+<div class="photo-block">
+<img src="/assets/img/blog/jocelyn-16/1.jpg">
+<img src="/assets/img/blog/jocelyn-16/2.jpg">
+<img src="/assets/img/blog/jocelyn-16/3.jpg">
+<img src="/assets/img/blog/jocelyn-16/4.jpg">
+<img src="/assets/img/blog/jocelyn-16/5.jpg">
+<img src="/assets/img/blog/jocelyn-16/6.jpg">
+</div>

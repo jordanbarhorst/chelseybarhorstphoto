@@ -11,3 +11,16 @@ summary: Confession -  There’s nothing I love more than a crisp fall evening w
 
 ---
 Confession: There’s nothing I love more than a crisp fall evening with a golden sun setting slowly in the orange sky. This is what we got for this beautiful fall evening session with one of my favorite families! Warm skies and warm smiles made for a perfect evening. The kids, Jocelyn and Tristan loved showing off their best “poses” and we giggled the whole way through. Kristin and Kyle have created such a loving family and I think it shines through in this session. Enjoy!
+
+<div class="photo-block">
+<img src="/assets/img/blog/mefford-16/1.jpg">
+<img src="/assets/img/blog/mefford-16/2.jpg">
+<img src="/assets/img/blog/mefford-16/3.jpg">
+<img src="/assets/img/blog/mefford-16/4.jpg">
+<img src="/assets/img/blog/mefford-16/5.jpg">
+<img src="/assets/img/blog/mefford-16/6.jpg">
+<img src="/assets/img/blog/mefford-16/7.jpg">
+<img src="/assets/img/blog/mefford-16/8.jpg">
+<img src="/assets/img/blog/mefford-16/9.jpg">
+<img src="/assets/img/blog/mefford-16/10.jpg">
+</div>

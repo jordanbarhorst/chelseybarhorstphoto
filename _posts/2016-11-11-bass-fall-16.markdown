@@ -10,3 +10,15 @@ main-image: bass-fall-16.jpg
 summary: The weather could not have worked out better for this session! The Bass kids’ mom, my co-worker Nikki, ordered an adorable outfit for the kiddos Caden and Maddie off of etsy and was anxiously waiting for them to arrive to schedule the shoot! Luckily, the day they came in just happened to be the best weather and light we had all week! We met at the Cincinnati Nature Center and spent the evening chasing down the most gorgeous evening light and taking turns trying to get Miss Maddie Moe to give us a smile! I’ve had such a pleasure getting to know these kids the past year or so and it was an honor to get to have such a fun shoot with them! I can’t wait for their holiday mini session!
 ---
 The weather could not have worked out better for this session! The Bass kids’ mom, my co-worker Nikki, ordered an adorable outfit for the kiddos Caden and Maddie off of etsy and was anxiously waiting for them to arrive to schedule the shoot! Luckily, the day they came in just happened to be the best weather and light we had all week! We met at the Cincinnati Nature Center and spent the evening chasing down the most gorgeous evening light and taking turns trying to get Miss Maddie Moe to give us a smile! I’ve had such a pleasure getting to know these kids the past year or so and it was an honor to get to have such a fun shoot with them! I can’t wait for their holiday mini session!
+
+<div class="photo-block">
+<img src="/assets/img/blog/bass-16/1.jpg">
+<img src="/assets/img/blog/bass-16/2.jpg">
+<img src="/assets/img/blog/bass-16/3.jpg">
+<img src="/assets/img/blog/bass-16/4.jpg">
+<img src="/assets/img/blog/bass-16/5.jpg">
+<img src="/assets/img/blog/bass-16/6.jpg">
+<img src="/assets/img/blog/bass-166/7.jpg">
+<img src="/assets/img/blog/bass-16/8.jpg">
+<img src="/assets/img/blog/bass-16/9.jpg">
+</div>
