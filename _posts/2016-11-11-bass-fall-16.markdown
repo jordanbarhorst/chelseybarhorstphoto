@@ -17,8 +17,6 @@ The weather could not have worked out better for this session! The Bass kids’ 
 <img src="/assets/img/blog/bass-16/3.jpg">
 <img src="/assets/img/blog/bass-16/4.jpg">
 <img src="/assets/img/blog/bass-16/5.jpg">
-<img src="/assets/img/blog/bass-16/6.jpg">
-<img src="/assets/img/blog/bass-166/7.jpg">
 <img src="/assets/img/blog/bass-16/8.jpg">
 <img src="/assets/img/blog/bass-16/9.jpg">
 </div>
