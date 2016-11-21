@@ -1,26 +1,25 @@
 ---
 title:  Smith Family
+subline: golden light, golden trees
+friendly-date: November 20, 2016
 date:   15-11-2016
-categories: family
-layout: default
+categories: blog
+layout: post
 home-image: smith-family-fall-16.jpg
+main-image: smith-fall-16.jpg
+summary: I’m so excited to share these photos with you! I met Lauren, Jason, and Austin at the Cincinnati Nature Center for an evening family session and we had the most perfect, soft, golden sunlight I’ve ever seen. Although the Nature Center was buzzing with kids playing all around and other photographers taking photos, we had so much fun staking out for the best spots and hunting down the best light that hit the water just right. This little family is so gorgeous and photogenic; they made my job too easy!
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+I’m so excited to share these photos with you! I met Lauren, Jason, and Austin at the Cincinnati Nature Center for an evening family session and we had the most perfect, soft, golden sunlight I’ve ever seen. Although the Nature Center was buzzing with kids playing all around and other photographers taking photos, we had so much fun staking out for the best spots and hunting down the best light that hit the water just right. This little family is so gorgeous and photogenic; they made my job too easy!
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+<img src="/assets/img/blog/smith-16/1.jpg">
+<img src="/assets/img/blog/smith-16/2.jpg">
+<img src="/assets/img/blog/smith-16/3.jpg">
+<img src="/assets/img/blog/smith-16/4.jpg">
+<img src="/assets/img/blog/smith-16/5.jpg">
+<img src="/assets/img/blog/smith-16/6.jpg">
+<img src="/assets/img/blog/smith-16/7.jpg">
+<img src="/assets/img/blog/smith-16/8.jpg">
+<img src="/assets/img/blog/smith-16/9.jpg">
+<img src="/assets/img/blog/smith-16/10.jpg">
+<img src="/assets/img/blog/smith-16/11.jpg">
+<img src="/assets/img/blog/smith-16/12.jpg">

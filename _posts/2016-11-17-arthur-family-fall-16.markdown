@@ -1,26 +1,13 @@
 ---
 title:  Arthur Family
+subline: playing at sunset
+friendly-date: November 20, 2016
 date:   17-11-2016
-categories: family
-layout: default
+categories: blog
+layout: post
 home-image: arthur-family-fall-16.jpg
+main-image: arthur-fall-16.jpg
+summary: I’ve been so blessed as a photographer to shoot such great evening light and warm sunsets and this session was no exemption. This gorgeous family met me at Nesbit Park in Loveland,Ohio and we jumped in right away to catch that last bit of gorgeous warm light. The two little ones, Aleigh and Wesley were SO energetic and fun; I had a blast chasing after them and catching sweet giggles in between. They’re so sweet and there’s nothing I love more than capturing children in their element. Their mom and dad, Taylor and Adam, were so great to shoot as well- trusting me every step of the way. I love how the session turned out and I can’t wait to shoot them in the future. Enjoy!
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+I’ve been so blessed as a photographer to shoot such great evening light and warm sunsets and this session was no exemption. This gorgeous family met me at Nesbit Park in Loveland, Ohio and we jumped in right away to catch that last bit of gorgeous warm light. The two little ones, Aleigh and Wesley were SO energetic and fun; I had a blast chasing after them and catching sweet giggles in between. They’re so sweet and there’s nothing I love more than capturing children in their element. Their mom and dad, Taylor and Adam, were so great to shoot as well- trusting me every step of the way. I love how the session turned out and I can’t wait to shoot them in the future. Enjoy!

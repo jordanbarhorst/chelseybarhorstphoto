@@ -138,7 +138,7 @@
       margin: auto;
       display: block;
 
-      @media only screen and (max-width: 1080px) {
+      @media only screen and (max-width: 1180px) {
           display: none;
       }
     }
@@ -403,4 +403,40 @@ footer {
       display: block;
     }
   }
+}
+
+/* Blog Styles */
+
+.post-header {
+  @include span-columns(12);
+
+  text-align: center;
+  h1 {
+    color: $green;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1em;
+    font-family: $base-font-family;
+  }
+}
+
+.post-content {
+  p {
+  font-size: 1em;
+  padding: 20px 0;
+  a {
+    color: $green;
+    transition: all .3s ease 0.0s;
+    &:hover {
+      text-decoration: none;
+      color: darken($green, 20%);
+    }
+  }
+  }
+  img {
+    margin-top: 0px;
+  }
+
 }

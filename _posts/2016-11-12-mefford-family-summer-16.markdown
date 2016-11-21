@@ -1,26 +1,13 @@
 ---
-title:  Mefford Family
+title:  Jocelyn - Portrait
+subline: sunflowers and pumpkins
+friendly-date: November 20, 2016
 date:   12-11-2016
-categories: family
-layout: default
+categories: blog
+layout: post
 home-image: mefford-family-fall-16-2.jpg
+main-image: jocelyn-fall-16.jpg
+summary: Blooming sunflowers and warm sun filtering through the beginning-to-orange oak trees up above is how I got to spend this carefree fall Saturday! I got the impromptu chance to shoot a mini session of one of my good friend’s daughter and the beautiful light and company resulted in gorgeous photos. Jocelyn is mature and wise beyond her years and I was able to capture her beautiful spirit and personality with this fun shoot. Enjoy!
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Blooming sunflowers and warm sun filtering through the beginning-to-orange oak trees up above is how I got to spend this carefree fall Saturday! I got the impromptu chance to shoot a mini session of one of my good friend’s daughter and the beautiful light and company resulted in gorgeous photos. Jocelyn is mature and wise beyond her years and I was able to capture her beautiful spirit and personality with this fun shoot. Enjoy!

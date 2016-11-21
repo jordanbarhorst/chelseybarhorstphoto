@@ -1,26 +1,12 @@
 ---
 title:  Sworden Family
+subline: laughs and love
+friendly-date: November 20, 2016
 date:   13-11-2016
-categories: family
-layout: default
+categories: blog
+layout: post
 home-image: sworden-family-fall-16.jpg
+main-image: sworden-fall-16.jpg
+summary: This session is near and dear to my heart. My best friend, Caitlin, made the trek 3 hours south down 75 for me to do a family session with her fiance, Tyler, and his son, Xander. I’m so lucky to have gotten to know her little family over the past 3 years and it’s been amazing to see Xander grow into such a handsome young man. Although it was a chilly morning (read - FREEZING)they were absolute troopers and I was able to capture their hearts and love in these photos. Enjoy!
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+This session is near and dear to my heart. My best friend, Caitlin, made the trek 3 hours south down 75 for me to do a family session with her fiance, Tyler, and his son, Xander. I’m so lucky to have gotten to know her little family over the past 3 years and it’s been amazing to see Xander grow into such a handsome young man. Although it was a chilly morning (read: FREEZING) they were absolute troopers and I was able to capture their hearts and love in these photos. Enjoy! 
