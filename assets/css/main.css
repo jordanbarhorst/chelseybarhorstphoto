@@ -6696,7 +6696,7 @@ footer {
     display: block; }
 
 .post-header a {
-  color: #96D08C; }
+  color: #96D08C !important; }
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
