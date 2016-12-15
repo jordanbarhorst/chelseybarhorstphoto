@@ -6698,6 +6698,15 @@ footer {
 .post-header a {
   color: #96D08C !important; }
 
+.package {
+  margin-top: 50px;
+  text-align: center; }
+  .package h1 {
+    font-size: 2.5em;
+    color: #96D08C; }
+  .package .price {
+    font-size: 1.5em; }
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
 

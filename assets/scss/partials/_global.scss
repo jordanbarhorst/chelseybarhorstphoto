@@ -475,3 +475,15 @@ footer {
     color: $green!important;
   }
 }
+
+.package {
+  margin-top: 50px;
+  text-align: center;
+  h1 {
+    font-size: 2.5em;
+    color: $green;
+  }
+  .price {
+    font-size: 1.5em;
+  }
+}
