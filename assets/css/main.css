@@ -6695,17 +6695,42 @@ footer {
     width: 100%;
     display: block; }
 
-.post-header a {
-  color: #96D08C !important; }
-
-.package {
-  margin-top: 50px;
+.pricing {
   text-align: center; }
-  .package h1 {
-    font-size: 2.5em;
-    color: #96D08C; }
-  .package .price {
-    font-size: 1.5em; }
+  .pricing a {
+    color: #96D08C !important; }
+  .pricing .package {
+    margin-top: 50px; }
+    .pricing .package h1 {
+      font-size: 2.5em;
+      color: #96D08C;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+    .pricing .package .price {
+      font-size: 1.5em; }
+
+.wedding {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+  .wedding::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .wedding a {
+    color: #96D08C !important; }
+  .wedding h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 0; }
+  .wedding .question {
+    margin-top: 50px; }
+    .wedding .question h3 {
+      font-size: 2.5em;
+      color: #96D08C;
+      margin-bottom: 15px;
+      padding-bottom: 0;
+      font-family: "blooming_elegant_sansregular", sans-serif; }
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
