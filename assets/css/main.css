@@ -6259,6 +6259,9 @@ ul, ol {
   .work-portfolio-item img {
     padding-top: 0 !important;
     margin-top: 0 !important; }
+.tall {
+width: 50%;
+padding-right: 10px;}
 
 /* Navigation Styles */
 .container {
