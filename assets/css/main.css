@@ -6126,11 +6126,11 @@ ul, ol {
     margin-top: 4em;
     border: 5px solid; }
 .tall {
-width: 50%;
+width: 50%!important;
 float:left;
 padding-right: 10px;}
 .tall-right {
-width: 50%;
+width: 50%!important;
 float:left;
 padding-left: 10px;}
 .featured-post-list {
