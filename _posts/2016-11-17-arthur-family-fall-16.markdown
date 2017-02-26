@@ -21,6 +21,6 @@ I’ve been so blessed as a photographer to shoot such great evening light and w
 <img src="/assets/img/blog/arthur-16/6.jpg">
 <img src="/assets/img/blog/arthur-16/7.jpg">
 <img src="/assets/img/blog/arthur-16/8.jpg">
-<img src="/assets/img/blog/arthur-16/9.jpg">
-<img src="/assets/img/blog/arthur-16/10.jpg"> 
+<img class="tall" src="/assets/img/blog/arthur-16/9.jpg">
+<img class="tall" src="/assets/img/blog/arthur-16/10.jpg"> 
 </div>
