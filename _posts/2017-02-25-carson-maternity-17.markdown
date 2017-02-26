@@ -2,7 +2,7 @@
 title:  Kelsie + Dylan Maternity
 subline: maternity
 friendly-date: February 25, 2017
-date:   02-25-2017
+date:   25-02-2017
 categories: blog
 layout: post
 home-image: carson-maternity-17.jpg
